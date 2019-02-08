@@ -1,2 +1,2 @@
-# USB_Custom_HID
-STM32 MCU Project with Custom HID USB, driver for Linux Kernel 4.15 is presented at  https://github.com/ErakhtinB/Linux_driver_USB_Custom_HID
+#USB_Custom_HID
+USB is configured in Custom HID mode, sending every 100 ms information about User Button state. Also it is possible to change LEDs' states by sending messages from host. The protocol is descripted in driver's repo: https://github.com/ErakhtinB/USB_Custom_HID_Driver
